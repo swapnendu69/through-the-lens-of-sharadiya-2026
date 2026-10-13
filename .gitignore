@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets - NEVER commit
+.streamlit/secrets.toml
+.env
+*service-account*.json
+*firebase*adminsdk*.json
+serviceAccountKey.json
+
+# Local environment
+venv/
+.venv/
+__pycache__/
