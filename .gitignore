@@ -230,3 +230,5 @@ serviceAccountKey.json
 venv/
 .venv/
 __pycache__/
+
+raw_geo/
