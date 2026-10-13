@@ -1,3 +1,4 @@
+from utils.theme import apply_theme
 import hmac
 import time
 from datetime import timedelta, timezone
@@ -12,6 +13,8 @@ st.set_page_config(
     page_icon="🔒",
     layout="wide",
 )
+
+apply_theme()
 
 MAX_ATTEMPTS = 5
 LOCK_SECONDS = 300

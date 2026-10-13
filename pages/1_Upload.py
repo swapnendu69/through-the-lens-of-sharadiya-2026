@@ -1,3 +1,4 @@
+from utils.theme import apply_theme
 import logging
 import time
 import uuid
@@ -19,6 +20,8 @@ st.set_page_config(
     page_icon="🪔",
     layout="centered",
 )
+
+apply_theme()
 
 MAX_FILES = 10
 RATE_LIMIT = 20      # photos per session per window
